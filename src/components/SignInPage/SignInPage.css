@@ -1,0 +1,23 @@
+h1 {
+  font-family: "Henny Penny";
+  font-size: 72px;
+  max-width: 80%;
+  margin: 3rem;
+  color: #665453;
+}
+
+input {
+  padding: 10px;
+  background-color: #d3efe7;
+  border-radius: 20px;
+
+  font-family: "Glory";
+}
+.sign-in-box-container {
+  padding: 3rem;
+  border-radius: 20px;
+
+  font-family: "Glory";
+  color: #ece2d0;
+  background: #665453;
+}
