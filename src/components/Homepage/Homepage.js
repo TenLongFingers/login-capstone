@@ -1,15 +1,8 @@
 import React from "react";
 import "./homepage.css";
-import TimerCont from "./TimerCont/TimerCont";
-import TimerTaskList from "./TimerTaskList/TimerTaskList";
 
 function Homepage() {
-  return (
-    <div className="homepage">
-      <TimerCont />
-      <TimerTaskList />
-    </div>
-  );
+  return <div className="homepage">This would be the homepage</div>;
 }
 
 export default Homepage;
