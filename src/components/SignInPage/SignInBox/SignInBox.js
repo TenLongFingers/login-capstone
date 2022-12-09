@@ -27,14 +27,6 @@ const SignInBox = () => {
     setErrMsg("");
   }, [user, pwd]);
 
-  //TRACK CHANGES IN INPUT
-  //this is class syntax, needs to be changed to functional syntax
-  // const changeHandler = (e) => {
-  //   this.setState({
-  //     [e.target.name]: e.target.value,
-  //   });
-  // };
-
   //SUBMIT BUTTON FUNCTION
   const handleSubmit = (e, props) => {
     e.preventDefault();
